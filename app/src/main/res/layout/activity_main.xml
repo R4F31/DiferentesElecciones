@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <RadioButton android:id="@+id/pedra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pedra" />
+
+    <RadioButton
+        android:id="@+id/tisores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tisores" />
+
+    <RadioButton
+        android:id="@+id/paper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paper" />
+
+    <TextView
+        android:id="@+id/Eleccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="La eleccion" />
+</RadioGroup>
